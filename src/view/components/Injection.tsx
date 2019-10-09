@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import locale from "date-fns/locale/en-GB";
 import React, { useCallback } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -21,6 +22,7 @@ const Injection: React.FC<InjectionProps> = ({ day, position, onChange }) => {
   return (
     <StyledInjection
       calendarContainer={Calendar}
+      locale={locale}
       withPortal={true}
       selected={day}
       onChange={change}
