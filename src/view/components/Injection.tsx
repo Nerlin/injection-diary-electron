@@ -23,6 +23,7 @@ const Injection: React.FC<InjectionProps> = ({ day, position, onChange }) => {
     <StyledInjection
       calendarContainer={Calendar}
       locale={locale}
+      dateFormat={"dd/MM/yyyy"}
       withPortal={true}
       selected={day}
       onChange={change}
