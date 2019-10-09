@@ -18,7 +18,8 @@ app.on("ready", () => {
       nodeIntegration: true
     },
     width: 800,
-    height: 700
+    height: 700,
+    icon: path.join(app.getAppPath(), "injection.ico")
   });
 
   window.setMenu(null);
