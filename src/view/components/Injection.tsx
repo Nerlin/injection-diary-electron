@@ -21,6 +21,7 @@ const Injection: React.FC<InjectionProps> = ({ day, position, onChange }) => {
   return (
     <StyledInjection
       calendarContainer={Calendar}
+      withPortal={true}
       selected={day}
       onChange={change}
     />
