@@ -22,6 +22,7 @@ const Injection: React.FC<InjectionProps> = ({ day, position, onChange }) => {
   return (
     <StyledInjection
       calendarContainer={Calendar}
+      isClearable={true}
       locale={locale}
       dateFormat={"dd/MM/yyyy"}
       withPortal={true}

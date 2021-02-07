@@ -1,7 +1,6 @@
 import { BodyPart } from "../state/types";
 import styled from "@emotion/styled";
 import React from "react";
-import { string } from "prop-types";
 
 export interface InjectionBodyPartProps {
   body: BodyPart;

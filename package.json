@@ -4,12 +4,12 @@
   "description": "",
   "main": "electron.bundle.js",
   "scripts": {
-    "start": "webpack && electron dist/electron.bundle.js"
+    "start": "npx webpack-cli && electron dist/electron.bundle.js"
   },
   "author": "nerlin",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.6.3",
+    "@babel/cli": "^7.12.13",
     "@babel/core": "^7.6.3",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
@@ -27,7 +27,7 @@
     "style-loader": "^1.0.0",
     "typescript": "^3.6.3",
     "webpack": "^4.41.0",
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.6.0",

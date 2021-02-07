@@ -15,7 +15,7 @@ app.on("ready", () => {
 
   window = new BrowserWindow({
     webPreferences: {
-      nodeIntegration: true
+      nodeIntegration: true,
     },
     width: 800,
     height: 700,
